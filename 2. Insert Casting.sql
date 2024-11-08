@@ -50,13 +50,13 @@ INSERT INTO Candidato (Codigo, Nombre, Direccion, FechaNacimiento, Telefono, Fot
 
 -- Crear datos para la tabla Perfil
 INSERT INTO Perfil (CodCandidato, Provincia, Sexo, RangoAltura, RangoEdad, ColorPelo, ColorOjos, Especialidad, Experiencia) VALUES
-(1, 'Provincia A', 'F', '161-170', '18-30', 'Negro', 'Marrón', 'ACTOR', 'SI'),
-(2, 'Provincia B', 'M', '171-180', '18-30', 'Castaño', 'Azul', 'MODELO', 'SI'),
-(3, 'Provincia C', 'F', '151-160', '18-30', 'Rubio', 'Verde', 'ACTOR', 'NO'),
-(4, 'Provincia D', 'M', '181+', '18-30', 'Negro', 'Negro', 'MODELO', 'SI'),
-(5, 'Provincia E', 'F', '140-150', '13-17', 'Castaño', 'Café', 'MODELO', 'NO'),
-(6, 'Provincia F', 'M', '151-160', '13-17', 'Negro', 'Azul', 'ACTOR', 'NO'),
-(7, 'Provincia G', 'F', '171-180', '31-50', 'Rubio', 'Verde', 'MODELO', 'SI');
+(1, 'Provincia A', 'F', '161-170', '51+', 'Negro', 'Marrón', 'ACTOR', 'SI'),
+(2, 'Provincia B', 'M', '171-180', '51+', 'Castaño', 'Azul', 'MODELO', 'SI'),
+(3, 'Provincia C', 'F', '151-160', '51+', 'Rubio', 'Verde', 'ACTOR', 'NO'),
+(4, 'Provincia D', 'M', '181+', '51+', 'Negro', 'Negro', 'MODELO', 'SI'),
+(5, 'Provincia E', 'F', '140-150', '0-12', 'Castaño', 'Café', 'MODELO', 'NO'),
+(6, 'Provincia F', 'M', '151-160', '0-12', 'Negro', 'Azul', 'ACTOR', 'NO'),
+(7, 'Provincia G', 'F', '171-180', '51+', 'Rubio', 'Verde', 'MODELO', 'SI');
 
 -- Crear datos para la tabla Representante
 INSERT INTO Representante (NIF, Nombre, Telefono, Direccion, CodCandidato) VALUES
